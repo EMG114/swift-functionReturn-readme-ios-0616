@@ -43,3 +43,14 @@ func getAgeAndCongratulate(name: String) -> Int {
 
 let friend2 = "Pete"
 var friend2Age = getAgeAndCongratulate(friend2)
+
+
+func thingsTobuy(name:String){
+    print( "Need to buy \(name)")
+}
+
+func sayHello (name:String, age:Int) -> String{
+    let introduction = "I am \(name) and I am \(age)"
+    print (introduction)
+    return introduction
+}
